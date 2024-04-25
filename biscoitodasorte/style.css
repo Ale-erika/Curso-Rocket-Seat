@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+  display: inline-flex;
+  padding: 23.9rem 54.2rem 31.9rem 54.2rem;
+  align-items: flex-start;
+}
+
+/* screen1 */
+
+.screen1,
+.screen2 {
+  width: 42.8rem;
+  background: #fff;
+  padding: 4.8rem 6.4rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 2rem 5rem 0rem rgba(0, 0, 0, 0.8);
+}
+
+.screen1 {
+  height: 42.4rem;
+}
+
+.box1 {
+  width: 30rem;
+  height: 31.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.7rem;
+  text-align: center;
+  flex-shrink: 0;
+  padding-left: 2.064rem;
+  padding-right: 2.084rem;
+}
+
+.title {
+  color: #34355b;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 25.85rem;
+  padding: 0;
+}
+
+.screen1 h1 {
+  width: 25, 85rem;
+  height: 5.8rem;
+}
+
+.hide {
+  display: none;
+}
+
+p {
+  color: #34355b;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 1.4rem;
+}
+
+.vibrate-1 img {
+  width: 24.8842rem;
+  height: 19.179rem;
+  flex-shrink: 0;
+  padding-top: 2rem;
+  animation-name: vibrate;
+  -webkit-animation: vibrate 0.3s linear infinite both;
+  animation: vibrate 0.3s linear infinite both;
+  cursor: pointer;
+}
+
+/* animação */
+
+@-webkit-keyframes vibrate {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+/*screen 2 */
+
+.screen2 {
+  height: 56.4rem;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.7rem;
+  width: 30rem;
+  height: 46.8rem;
+}
+
+.box2 h2 {
+  width: 29.7rem;
+  height: 5.8rem;
+  color: #34355b;
+}
+
+.card-sorte {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
+  width: 29.3rem;
+  height: 10.7rem;
+}
+
+/* .box2 p {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+} */
+
+.card-sorte {
+  animation: downtop 4s 10ms backwards;
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+    width: 0%;
+    font-size: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-sorte p {
+  color: #000;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cookieOpened img {
+  width: 30rem;
+  display: flex;
+  width: 30rem;
+  height: 20rem;
+  padding: 4.3rem 0px 4.3rem 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 1.7rem 0 1.7rem 0;
+}
+
+button {
+  display: flex;
+  height: 5.2rem;
+  border-radius: 0.4rem;
+  border: none;
+  background: #ff9500;
+  font-family: "DM Sans", sans-serif;
+  transition: 0.3s;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+button:hover {
+  background-color: #a2671a;
+}
+
+#btnOpenAgain {
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1.6rem;
+  gap: 1rem;
+}
