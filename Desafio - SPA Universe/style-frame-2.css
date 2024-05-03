@@ -1,0 +1,8 @@
+body {
+  border-radius: 2rem;
+  width: 140.3rem;
+  height: 78.9rem;
+  flex-shrink: 0;
+  background: url(./assets/mountains-universe-2.png) lightgray 50% / cover
+    no-repeat;
+}
