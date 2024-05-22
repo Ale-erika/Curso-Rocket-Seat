@@ -1,1 +1,13 @@
-Páginas desenvolvidas em HTML e CSS com o objetivo de colocar em prática o que está sendo repassado no curso da RocketSeat.
+Projetos em HTML e CSS
+
+Objetivo: Colocar em prática o conteúdo aprendido no curso da RocketSeat.
+
+Principais conhecimentos abordados:
+
+- Layout
+- SPA
+- GRID
+- Animação
+- Uso de Array
+- Formulários
+- JavaScript
